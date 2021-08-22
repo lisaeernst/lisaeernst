@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Lisa Ernst Designer</title>
 </head>
 
@@ -30,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#work">WORK</a>
+                    <a class="nav-link active" aria-current="page" href="#work">PORTFOLIO</a>
                     <a class="nav-link" href="index.html#about">ABOUT</a>
                     <a class="nav-link" href="index.html#contact">CONTACT</a>
                 </div>
@@ -76,8 +77,8 @@
 
         <!--portfolio section-->
         <div class="container portfolio-container">
-            <div class="portfolio-header" id="work">
-                <h2 class="title-h2">WORK</h2>
+            <div class="portfolio-header" data-aos="fade-right" data-aos-duration="1500" id="work">
+                <h2 class="title-h2">PORTFOLIO</h2>
                 <div class="hr"></div>
             </div>
         </div>
@@ -86,7 +87,7 @@
 
         <!-- Project flip cards -->
         <div class="container-flip">
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <!-- The parent element -->
                 <div class="post shadow-lg">
                     <!-- Child element that flips -->
@@ -111,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="post shadow-lg">
                     <div class="post-front">
                         <div class="post-img" style="background-image: url('images/flip/employee-directory.jpg');">
@@ -136,7 +137,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="post shadow-lg">
                     <div class="post-front">
                         <div class="post-img" style="background-image: url('images/flip/webDashboard.jpg');"></div>
@@ -159,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <!-- The parent element -->
                 <div class="post shadow-lg">
                     <!-- Child element that flips -->
@@ -183,7 +184,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="post shadow-lg">
                     <div class="post-front">
                         <div class="post-img" style="background-image: url('images/flip/photo-gallery.jpg');"></div>
@@ -205,10 +206,6 @@
                     </div>
                 </div>
             </div>
-            <div class="container text-center general-button">
-                <a href="work.html">View My Full
-                    Portfolio</a>
-            </div>
         </div>
         <!--Project flip cards-->
 
@@ -217,7 +214,7 @@
 
 
         <div class="container portfolio-container-h2" id="personal">
-            <div class="portfolio-header">
+            <div class="portfolio-header" data-aos="fade-right" data-aos-duration="1500">
                 <h2 class="title-h2">PERSONAL PROJECTS</h2>
                 <div class="hr"></div>
             </div>
@@ -225,7 +222,7 @@
 
         <!-- flip cards -->
         <div class="container-flip">
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <!-- The parent element -->
                 <div class="post shadow-lg">
                     <!-- Child element that flips -->
@@ -249,7 +246,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="post shadow-lg">
                     <div class="post-front">
                         <div class="post-img" style="background-image: url('images/flips/post2.jpg');"></div>
@@ -273,7 +270,7 @@
                     </div>
                 </div>
             </div>
-            <div class="post-wrap">
+            <div class="post-wrap" data-aos="zoom-in-right" data-aos-duration="1500">
                 <div class="post shadow-lg">
                     <div class="post-front">
                         <div class="post-img" style="background-image: url('images/flips/post3.jpg');"></div>
@@ -364,6 +361,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
+    <!-- AOS (animate on scroll) library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

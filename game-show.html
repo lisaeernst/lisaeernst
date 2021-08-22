@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Lisa Ernst Designer</title>
 </head>
 
@@ -30,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="work.html">WORK</a>
+                    <a class="nav-link active" aria-current="page" href="portfolio.html">PORTFOLIO</a>
                     <a class="nav-link" href="index.html#about">ABOUT</a>
                     <a class="nav-link" href="index.html#contact">CONTACT</a>
                 </div>
@@ -88,7 +89,7 @@
         <div class="container px-4 py-5 icon-section" id="featured-3">
 
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="feature col text-center">
+                <div class="feature col text-center" data-aos="zoom-in-right" data-aos-duration="1000">
                     <div class="case-study-icons">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-activity" width="60"
                             height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#e94f37" fill="none"
@@ -102,7 +103,7 @@
                         corrupti porro labore repudiandae voluptatum iusto nobis!</p>
 
                 </div>
-                <div class="feature col text-center">
+                <div class="feature col text-center" data-aos="zoom-in-right" data-aos-duration="1500">
                     <div class="case-study-icons">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile"
                             width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#e94f37" fill="none"
@@ -118,7 +119,7 @@
                         sint libero perspiciatis natus, enim rerum provident.</p>
 
                 </div>
-                <div class="feature col text-center">
+                <div class="feature col text-center" data-aos="zoom-in-right" data-aos-duration="2000">
                     <div class="case-study-icons">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-braces" width="60"
                             height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#e94f37" fill="none"
@@ -137,7 +138,8 @@
         </div><!-- end of 3 icon set -->
 
         <!--project write up section-->
-        <div class="container project-writeup">
+        <div class="container project-writeup" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
 
 
@@ -166,7 +168,7 @@
 
                 </div>
                 <!--project image 1-->
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div class="my-3 p-3">
                             <h2 class="display-5">Project Image Here</h2>
@@ -183,7 +185,7 @@
 
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
                 <!--project image 2-->
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div class="my-3 p-3">
                             <h2 class="display-5">Project Image Here</h2>
@@ -194,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
                     <div class="class my-3">
                         <p>To start off, I used getElementById to store each ID in my HTML document and
@@ -222,7 +224,7 @@
 
             <!--third row of case study-->
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="class my-3">
                         <p>The next step was to create a variable to hold all of the letters with the class of
                             letter and convert them to lower case, then check to see if the letter matches any of
@@ -250,7 +252,7 @@
 
                 </div>
                 <!--project image 3-->
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div class="my-3 p-3">
                             <h2 class="display-5">Project Image Here</h2>
@@ -275,62 +277,65 @@
 
     <!--tech used container-->
     <div class="container tech-used">
-        <div class="p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-6 fw-normal">Tech Used In This Project</h1>
-            <p class="fs-5 text-muted">Rundown of the tech used.</p>
-        </div>
-        <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col1">
-                <h5>JAVASCRIPT</h5>
-                <p>First block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quam,
-                    non.
-                </p>
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-6 fw-normal">Tech Used In This Project</h1>
+                <p class="fs-5 text-muted">Rundown of the tech used.</p>
             </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col1">
+                    <h5>JAVASCRIPT</h5>
+                    <p>First block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam,
+                        non.
+                    </p>
+                </div>
 
-            <div class="col2">
-                <h5>HTML / CSS</h5>
-                <p>second block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quam,
-                    non.
-                </p>
+                <div class="col2">
+                    <h5>HTML / CSS</h5>
+                    <p>second block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam,
+                        non.
+                    </p>
+                </div>
+
             </div>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col1">
+                    <h5>GITHUB</h5>
+                    <p>First block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam,
+                        non.
+                    </p>
+                </div>
 
-        </div>
-        <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col1">
-                <h5>GITHUB</h5>
-                <p>First block of text Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quam,
-                    non.
-                </p>
+                <div class="col2">
+                    <h5>OTHER TECH USED</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quasi.</p>
+                </div>
+
             </div>
-
-            <div class="col2">
-                <h5>OTHER TECH USED</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quasi.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-6 fw-normal">Conclusion</h1>
+                <p class="fs-5 text-muted">What I walked away with in this project.</p>
             </div>
+            <div class="row row-cols-1 text-center">
+                <div class="col1">
+                    <p>This was by far the heaviest Javascript project I did in my Treehouse training. I learned so much
+                        about coding these elements from scratch, something I didn't think I would be doing. Learning to
+                        work more heavily with the DOM using Javascript was both rewarding and confusing at the same
+                        time.
+                        The logic required for this application was intense but I am pleased that I was able to
+                        understand
+                        (with a bit of help) what needed to be done in the end.
 
-        </div>
+                    </p>
+                </div>
 
-
-        <div class="p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-6 fw-normal">Conclusion</h1>
-            <p class="fs-5 text-muted">What I walked away with in this project.</p>
-        </div>
-        <div class="row row-cols-1 text-center">
-            <div class="col1">
-                <p>This was by far the heaviest Javascript project I did in my Treehouse training. I learned so much
-                    about coding these elements from scratch, something I didn't think I would be doing. Learning to
-                    work more heavily with the DOM using Javascript was both rewarding and confusing at the same time.
-                    The logic required for this application was intense but I am pleased that I was able to understand
-                    (with a bit of help) what needed to be done in the end.
-
-                </p>
             </div>
-
         </div>
-
 
     </div>
     <!--end of tech used section-->
@@ -396,6 +401,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
+    <!-- AOS (animate on scroll) library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
