@@ -162,12 +162,8 @@ a.navbar-brand img {
   color: #333333;
 }
 .island {
-  width: 500px;
-  height: 500px;
-  /* border-radius: 5px;
-  background-color: #fbab7e;
-  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%); */
- /*  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
+  width: 700px;
+  height: 575px;
 }
 .island img {
   filter: drop-shadow(5px 5px 5px rgb(172, 172, 172));
