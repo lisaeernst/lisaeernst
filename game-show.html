@@ -174,104 +174,107 @@
                             <h2 class="display-5">Project Image Here</h2>
                             <p class="lead">And an even wittier subheading.</p>
                         </div>
-                        <div class="bg-body shadow-sm mx-auto"
-                            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                        <!-- <div class="bg-body shadow-sm mx-auto"
+                            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"> -->
+                        <div class="bg-body shadow-sm mx-auto project-images">
+                            <img src="" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <!--end of fist row case study-->
+        </div>
+        <!--end of fist row case study-->
 
-            <!--second row of case study-->
+        <!--second row of case study-->
 
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-                <!--project image 2-->
-                <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                        <div class="my-3 p-3">
-                            <h2 class="display-5">Project Image Here</h2>
-                            <p class="lead">And an even wittier subheading.</p>
-                        </div>
-                        <div class="bg-body shadow-sm mx-auto"
-                            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <!--project image 2-->
+            <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">Project Image Here</h2>
+                        <p class="lead">And an even wittier subheading.</p>
+                    </div>
+                    <div class="bg-body shadow-sm mx-auto"
+                        style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
                     </div>
                 </div>
-                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            </div>
+            <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
-                    <div class="class my-3 case-study-para">
-                        <p>To start off, I used getElementById to store each ID in my HTML document and
-                            stored them each in a variable. I created a variable named ‘missed’ and gave it a value
-                            of zero so as the user selects a letter on the keyboard each wrong selection is
-                            then stored in this variable up to a maximum of 5 chances. After that the user is
-                            shown a Sorry, please try again message. </p>
+                <div class="class my-3 case-study-para">
+                    <p>To start off, I used getElementById to store each ID in my HTML document and
+                        stored them each in a variable. I created a variable named ‘missed’ and gave it a value
+                        of zero so as the user selects a letter on the keyboard each wrong selection is
+                        then stored in this variable up to a maximum of 5 chances. After that the user is
+                        shown a Sorry, please try again message. </p>
 
-                        <p>I then created an addEventListener set on the event ‘click’, to respond when the user
-                            clicks on the Start Game button located on the home screen. This then hides the overlay
-                            div by setting its display to ‘none’, consequently displaying the game screen. </p>
-                        <p>I created an array named ‘phrases’ to hold my five phrases. Then I created a function
-                            named getRandomPhraseAsArray and inside that function I created a variable that stores a
-                            random number based on the length of the array. </p>
+                    <p>I then created an addEventListener set on the event ‘click’, to respond when the user
+                        clicks on the Start Game button located on the home screen. This then hides the overlay
+                        div by setting its display to ‘none’, consequently displaying the game screen. </p>
+                    <p>I created an array named ‘phrases’ to hold my five phrases. Then I created a function
+                        named getRandomPhraseAsArray and inside that function I created a variable that stores a
+                        random number based on the length of the array. </p>
 
-                        <p>The addPhraseToDisplay function loops through the array of characters from the
-                            getRandomPhrasesAsArray function previously created. It then puts the characters inside
-                            the the html document li items and gives them a class of ‘letter’.</p>
-                    </div>
-
+                    <p>The addPhraseToDisplay function loops through the array of characters from the
+                        getRandomPhrasesAsArray function previously created. It then puts the characters inside
+                        the the html document li items and gives them a class of ‘letter’.</p>
                 </div>
 
             </div>
-            <!--end of second row case study-->
-
-
-            <!--third row of case study-->
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-                <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <div class="class my-3 case-study-para">
-                        <p>The next step was to create a variable to hold all of the letters with the class of
-                            letter and convert them to lower case, then check to see if the letter matches any of
-                            the
-                            letters in the phrase and if so, it gets stored in the matched variable with a class of
-                            show. When the loop is completed then the matched variable is returned.</p>
-                        <p>Next, I added an event listener for the qwerty element that listens for the click event
-                            on the on screen keyboard with a tag name of button this checks to make sure the user is
-                            not using the physical keyboard. The class of chosen is then added to the button that
-                            was
-                            clicked. That key is then disabled and is not available to be chosen again and is
-                            highlighted on the onscreen keyboard using CSS. The checkLetter function is called and
-                            the results are stored in the match variable. If the checkLetter function does not have
-                            a
-                            valid value then match is equal to null and a heart is removed, giving the user one less
-                            chance to solve the phrase. The missed counter is incremented by one.</p>
-                        <p>A new function called checkWin was created and inside this function the letters and show
-                            variables are compared to see if their lengths match. If they are then the win overlay
-                            is displayed. If the two variables lengths do not match then display the lose overlay
-                            with
-                            a message saying, Sorry, please try again.</p>
-                        <p>I added a function named reset to create a reset button which reloads the page on both
-                            the win or lose overlay to make for better usability for the player.</p>
-                    </div>
-
-                </div>
-                <!--project image 3-->
-                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                        <div class="my-3 p-3">
-                            <h2 class="display-5">Project Image Here</h2>
-                            <p class="lead">And an even wittier subheading.</p>
-                        </div>
-                        <div class="bg-body shadow-sm mx-auto"
-                            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!--end of third row case study-->
-
 
         </div>
-        <!--end of main row of project write up section-->
+        <!--end of second row case study-->
+
+
+        <!--third row of case study-->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="class my-3 case-study-para">
+                    <p>The next step was to create a variable to hold all of the letters with the class of
+                        letter and convert them to lower case, then check to see if the letter matches any of
+                        the
+                        letters in the phrase and if so, it gets stored in the matched variable with a class of
+                        show. When the loop is completed then the matched variable is returned.</p>
+                    <p>Next, I added an event listener for the qwerty element that listens for the click event
+                        on the on screen keyboard with a tag name of button this checks to make sure the user is
+                        not using the physical keyboard. The class of chosen is then added to the button that
+                        was
+                        clicked. That key is then disabled and is not available to be chosen again and is
+                        highlighted on the onscreen keyboard using CSS. The checkLetter function is called and
+                        the results are stored in the match variable. If the checkLetter function does not have
+                        a
+                        valid value then match is equal to null and a heart is removed, giving the user one less
+                        chance to solve the phrase. The missed counter is incremented by one.</p>
+                    <p>A new function called checkWin was created and inside this function the letters and show
+                        variables are compared to see if their lengths match. If they are then the win overlay
+                        is displayed. If the two variables lengths do not match then display the lose overlay
+                        with
+                        a message saying, Sorry, please try again.</p>
+                    <p>I added a function named reset to create a reset button which reloads the page on both
+                        the win or lose overlay to make for better usability for the player.</p>
+                </div>
+
+            </div>
+            <!--project image 3-->
+            <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">Project Image Here</h2>
+                        <p class="lead">And an even wittier subheading.</p>
+                    </div>
+                    <div class="bg-body shadow-sm mx-auto"
+                        style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of third row case study-->
+
+
+    </div>
+    <!--end of main row of project write up section-->
     </div>
     <!--end of project write up section-->
 
