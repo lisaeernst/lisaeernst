@@ -456,11 +456,11 @@
     <!-- AOS (animate on scroll) library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-    </script>
-    <script>
+        AOS.init({
+            once: true
+        });
         window.addEventListener('load', function () {
-            baguetteBox.run('.gallery');
+            baguetteBox.run('.project-writeup');
         });
     </script>
 

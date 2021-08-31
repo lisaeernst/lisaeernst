@@ -142,8 +142,7 @@
     </div><!-- end of 3 icon set -->
 
     <!--project write up section-->
-    <div class="container project-writeup" id="baguetteBoxImages" data-aos="fade-right" data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
+    <div class="container project-writeup" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
         <!--fist row case study-->
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
@@ -175,7 +174,8 @@
                         <p class="lead">Homepage</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <a href="images/employee-directory-main-fullpage-previous-design.png">
+                        <a href="images/employee-directory-main-fullpage-previous-design.png"
+                            data-caption="The original design">
                             <img src="images/employee-directory-orig-small.jpg" alt="modal window code">
                         </a>
                     </div>
@@ -188,7 +188,8 @@
                         <p class="lead">Modal window with contact info</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <a href="images/employee-directory-modal-fullpage.png">
+                        <a href="images/employee-directory-modal-fullpage.png"
+                            data-caption="Modal window with contact info and the ability to move back and forth between employees">
                             <img src="images/employee-directory-modal.jpg" alt="modal window code">
                         </a>
                     </div>
@@ -201,7 +202,8 @@
                         <p class="lead">Custom search feature filters employees</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <a href="images/employee-directory-search-fullpage.png">
+                        <a href="images/employee-directory-search-fullpage.png"
+                            data-caption="Custom search feature filters employees by first or last name">
                             <img src="images/employee-directory-search-feature.jpg" alt="modal window code">
                         </a>
                     </div>
@@ -221,7 +223,8 @@
                         <p class="lead">Updated looks including a new logo<br> and branding</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <a href="images/employee-directory-main-fullpage.png">
+                        <a href="images/employee-directory-main-fullpage.png"
+                            data-caption="Updated site including a new logo and branding">
                             <img src="images/employee-directory-main.jpg" alt="modal window code">
                         </a>
                     </div>
@@ -484,12 +487,11 @@
         AOS.init({
             once: true
         });
-    </script>
-    <script>
         window.addEventListener('load', function () {
-            baguetteBox.run('.gallery');
+            baguetteBox.run('.project-writeup');
         });
     </script>
+
 
     <script src="js/baguetteBox.min.js" async></script>
     <script type="text/javascript" src="js/app.js"></script>
