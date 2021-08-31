@@ -253,11 +253,11 @@ a.navbar-brand img {
   margin-bottom: 1rem;
 }
 .project-images {
-width: 80%;
-height: 300px;
-border0radius: 21px 21px 0 0;
-
+width: 100%;
+height: auto;
+border-radius: 21px 21px 0 0;
 }
+
 
 /* ************************************************************ */
 /*                  CONTACT SECTION                             */
