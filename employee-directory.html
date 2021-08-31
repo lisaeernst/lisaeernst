@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Nunito+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -140,7 +142,8 @@
     </div><!-- end of 3 icon set -->
 
     <!--project write up section-->
-    <div class="container project-writeup" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="container project-writeup" id="baguetteBoxImages" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
 
         <!--fist row case study-->
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
@@ -172,7 +175,9 @@
                         <p class="lead">Homepage</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <img src="images/employee-directory-orig-small.jpg" alt="original site design">
+                        <a href="images/employee-directory-main-fullpage-previous-design.png">
+                            <img src="images/employee-directory-orig-small.jpg" alt="modal window code">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -183,7 +188,9 @@
                         <p class="lead">Modal window with contact info</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <img src="images/employee-directory-modal.jpg" alt="original site design modal window">
+                        <a href="images/employee-directory-modal-fullpage.png">
+                            <img src="images/employee-directory-modal.jpg" alt="modal window code">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -194,7 +201,9 @@
                         <p class="lead">Custom search feature filters employees</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <img src="images/employee-directory-search-feature.jpg" alt="original site design modal window">
+                        <a href="images/employee-directory-search-fullpage.png">
+                            <img src="images/employee-directory-search-feature.jpg" alt="modal window code">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -212,7 +221,9 @@
                         <p class="lead">Updated looks including a new logo<br> and branding</p>
                     </div>
                     <div class="shadow-sm mx-auto project-images">
-                        <img src="images/employee-directory-main.jpg" alt="employee directory main page">
+                        <a href="images/employee-directory-main-fullpage.png">
+                            <img src="images/employee-directory-main.jpg" alt="modal window code">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -277,7 +288,8 @@
 
                     <div class="shadow-sm mx-auto project-images">
 
-                        <a href="images/code-modal-window-employee-directory-large.png">
+                        <a href="images/code-modal-window-employee-directory-large.png"
+                            data-caption="Modal Window using template literals to inject code">
                             <img src="images/code-modal-window-employee-directory.jpg" alt="modal window code">
                         </a>
 
@@ -473,7 +485,14 @@
             once: true
         });
     </script>
+    <script>
+        window.addEventListener('load', function () {
+            baguetteBox.run('.gallery');
+        });
+    </script>
 
+    <script src="js/baguetteBox.min.js" async></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>

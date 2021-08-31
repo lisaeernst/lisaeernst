@@ -1,8 +1,5 @@
 /* LISA ERNST FRONT END WEB DEVELOPER */
 
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+baguetteBox.run('.project-writeup');
 
-myModal.addEventListener('shown.bs.modal', function () {
-    myInput.focus()
-})
+
