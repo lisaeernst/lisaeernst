@@ -240,6 +240,124 @@ a.navbar-brand img {
   background-position: bottom;
   background-size: 100% 100%;
 }
+
+
+
+/* ************************************************************ */
+/*                  FLIP CARDS                                  */
+/* ************************************************************ */
+
+/* flip cards */
+.container-flip {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Required to position the posts one below the other on smaller devices */
+}
+
+.post-wrap {
+  min-width: 300px;
+  max-width: 380px;
+  height: 500px;
+  perspective: 1000px;
+  flex: 1;
+  margin: 0 15px 30px;
+}
+.post-wrap:hover {
+  cursor: pointer;
+}
+.post {
+  position: relative; /* Required to absolutely position the child faces */
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.post-front,
+.post-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.post-back {
+  transform: rotateY(180deg);
+}
+.post-front,
+.post-back {
+  /* Existing styles here */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.post-wrap:hover .post {
+  transform: rotateY(180deg);
+}
+
+/* front face styles */
+.post-img {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.post-info {
+  padding: 20px 30px 30px;
+}
+.post-info span {
+  font-size: 0.8rem;
+  color: #808080;
+}
+.post-info h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+/* backface styles */
+.post-back {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* To push the read more button to bottom */
+  align-items: flex-start; /* To position the read more button at the left */
+}
+.post-back h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.post-back p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+.post-back a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e94f37;
+  padding: 10px 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.post-back a:hover {
+  background-color: #ff725c;
+  border-color: #ff725c;
+  color: white;
+}
+.post-info {
+  text-align: center;
+}
+
+
 /* ************************************************************ */
 /*                  INDIVIDUAL CASE STUDY PAGES                 */
 /* ************************************************************ */
@@ -337,6 +455,9 @@ border-radius: 21px 21px 0 0;
 #sticky-footer span {
   font-size: larger;
 }
+.form-container p {
+  padding-left: 3px;
+}
 .linkedin-social,
 .github-social {
   padding-right: 15px;
@@ -354,9 +475,30 @@ border-radius: 21px 21px 0 0;
   font-weight: 500;
   margin-bottom: -20px;
 }
+a#contact-link {
+  background: linear-gradient(to top, #e94f37 0%, #e98d37 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
+  transition: all 0.5s;
+  padding: 5px; /*separates the line from the type a bit more*/
+  font-size: 2.5rem;
+}
+a:hover#contact-link  {
+  background-size: 4px 50px;
+  color: white;
+}
+.contact-para {
+  margin-top: 50px;
+}
+
+
 
 /* ************************************************************ */
-/*                  PORTFOLIO/WORK PAGE                         */
+/*                  PORTFOLIO PAGE                         */
 /* ************************************************************ */
 
 .container.storm-icon svg {
@@ -397,115 +539,11 @@ border-radius: 21px 21px 0 0;
     padding: 0 0.7em;
   }
 }
-
-/* flip cards */
-.container-flip {
-  max-width: 1200px;
-  margin: auto;
-  padding: 60px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* Required to position the posts one below the other on smaller devices */
+@media (min-width: 1200px) { 
+  /* contact link margin to align with the left side type */
+  .contact-link-container {
+  margin-top: 155px;
+}
 }
 
-.post-wrap {
-  min-width: 300px;
-  max-width: 380px;
-  height: 500px;
-  perspective: 1000px;
-  flex: 1;
-  margin: 0 15px 30px;
-}
-.post-wrap:hover {
-  cursor: pointer;
-}
-.post {
-  position: relative; /* Required to absolutely position the child faces */
-  width: 100%;
-  height: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
 
-.post-front,
-.post-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-.post-back {
-  transform: rotateY(180deg);
-}
-.post-front,
-.post-back {
-  /* Existing styles here */
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.post-wrap:hover .post {
-  transform: rotateY(180deg);
-}
-
-/* front face styles */
-.post-img {
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-/* .post-img-wheel {
-	background-image: url('images/flip/wheel-of-success.jpg');
- } */
-.post-info {
-  padding: 20px 30px 30px;
-}
-.post-info span {
-  font-size: 0.8rem;
-  color: #808080;
-}
-.post-info h2 {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding-top: 5px;
-}
-/* backface styles */
-.post-back {
-  background-color: #ffffff;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* To push the read more button to bottom */
-  align-items: flex-start; /* To position the read more button at the left */
-}
-.post-back h2 {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding-top: 5px;
-}
-.post-back p {
-  margin-top: 10px;
-  line-height: 1.6;
-}
-.post-back a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #e94f37;
-  padding: 10px 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.8em;
-  font-weight: bold;
-  border-radius: 5px;
-}
-.post-back a:hover {
-  background-color: #ff725c;
-  border-color: #ff725c;
-  color: white;
-}
-.post-info {
-  text-align: center;
-}
