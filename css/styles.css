@@ -74,6 +74,7 @@ h2.title-h2 {
 .logo-text {
   font-size: 2.5rem;
 }
+
 /* ************************************************************ */
 /*                NAVBAR ANIMATED UNDERLINES                    */
 /*          thanks to   https://codingyaar.com/                 */
@@ -367,6 +368,9 @@ a.navbar-brand img {
 .tech-used {
   margin-bottom: 12rem;
 }
+.tech-used-cols {
+  text-align: center;
+}
 .case-study-icons {
   margin-bottom: 3rem;
 }
@@ -520,6 +524,7 @@ a:hover#contact-link  {
 /* ************************************************************ */
 /*                  MEDIA QUERIES                               */
 /* ************************************************************ */
+
 @media (min-width: 992px) {
   /* contact form on index page left border */
   .form-side {
@@ -541,12 +546,13 @@ a:hover#contact-link  {
   .navbar .navbar-brand {
     padding: 0 0.7em;
   }
+ 
 }
 @media (min-width: 1200px) { 
   /* contact link margin to align with the left side type */
   .contact-link-container {
   margin-top: 155px;
 }
-}
 
+}
 
