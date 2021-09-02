@@ -71,6 +71,9 @@ h2.title-h2 {
   border-color: #ff725c;
   color: white;
 }
+.logo-text {
+  font-size: 2.5rem;
+}
 /* ************************************************************ */
 /*                NAVBAR ANIMATED UNDERLINES                    */
 /*          thanks to   https://codingyaar.com/                 */
@@ -129,8 +132,8 @@ span.header-span {
 a.navbar-brand img {
   background-image: url("../images/logo.png");
   position: relative;
-  width: 200px;
-  height: 69px;
+  width: 250px;
+  height: 100px;
   background-size: cover;
 }
 .heading {
