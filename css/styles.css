@@ -501,7 +501,9 @@ a:hover#contact-link  {
 .contact-para {
   margin-top: 50px;
 }
-
+.contact-link-container {
+  text-align: center;
+}
 
 
 /* ************************************************************ */
@@ -545,6 +547,9 @@ a:hover#contact-link  {
   }
   .navbar .navbar-brand {
     padding: 0 0.7em;
+  }
+  .contact-link-container {
+    text-align: left;
   }
  
 }
