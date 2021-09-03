@@ -45,51 +45,63 @@
     </nav>
 
 
-    <!--main container section-->
 
-    <div class="container-fluid main-body-section">
 
-        <!--hero top portfolio-->
-        <div class="px-4 py-5 my-5 text-center hero">
-            <!--  <img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72"
+    <!--hero top portfolio-->
+    <div class="container-fluid col-xxl-12 px-4 text-center hero-interior-page">
+        <!--  <img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72"
                 height="57"> -->
 
 
-            <div class="container storm-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="60" height="60"
-                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#e94f37" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <rect x="4" y="4" width="6" height="6" rx="1" />
-                    <rect x="4" y="14" width="6" height="6" rx="1" />
-                    <rect x="14" y="14" width="6" height="6" rx="1" />
-                    <line x1="14" y1="7" x2="20" y2="7" />
-                    <line x1="17" y1="4" x2="17" y2="10" />
-                </svg>
-            </div>
-
-
-            <h1 class="display-5 fw-bold">Web App Dashboard</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">There are so many charts to see here. You can really enjoy gathering the data you
-                    need all in one place. The use of SVG's and the Chart Javascript library helped to make this project
-                    shine. Custom alert notifications, functioning charts, and my first forray into using local storage
-                    to save settings.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="https://lisaeernst.github.io/techdegree-Project-7-WebDashboard/"
-                        class="btn btn-outline-secondary btn-lg px-4 gap-3" target="_blank">Experience Live
-                        Site</a>
-                    <a href="https://github.com/lisaeernst/techdegree-Project-7-WebDashboard"
-                        class="btn btn-outline-secondary btn-lg px-4 gap-3" target="_blank">GitHub Files</a>
-
-                </div>
-            </div>
-
-
+        <div class="container storm-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="60" height="60"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#e94f37" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="4" y="4" width="6" height="6" rx="1" />
+                <rect x="4" y="14" width="6" height="6" rx="1" />
+                <rect x="14" y="14" width="6" height="6" rx="1" />
+                <line x1="14" y1="7" x2="20" y2="7" />
+                <line x1="17" y1="4" x2="17" y2="10" />
+            </svg>
         </div>
-        <!--end of hero section-->
 
 
+        <h1 class="display-5 fw-bold">Web App Dashboard</h1>
+        <div class="col-lg-6 mx-auto pb-5">
+            <p class="lead mb-4">There are so many charts to see here. You can really enjoy gathering the data you
+                need all in one place. The use of SVG's and the Chart Javascript library helped to make this project
+                shine. Custom alert notifications, functioning charts, and my first forray into using local storage
+                to save settings.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="https://lisaeernst.github.io/techdegree-Project-7-WebDashboard/"
+                    class="btn btn-outline-secondary btn-lg px-4 gap-3" target="_blank">Experience Live
+                    Site</a>
+                <a href="https://github.com/lisaeernst/techdegree-Project-7-WebDashboard"
+                    class="btn btn-outline-secondary btn-lg px-4 gap-3" target="_blank">GitHub Files</a>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--end of hero section-->
+
+    <div class="hero-wave-interior">
+        <div class="custom-shape-divider-bottom-1630629094">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </div>
+    <!--end of hero wave-->
+
+
+    <!--main container section-->
+
+    <div class="container-fluid main-body-section">
 
 
         <!--3 icon set-->
@@ -314,7 +326,7 @@
     <!--end of container-fluid -->
 
 
-    <div class="container-fluid col-xl-10 col-xxl-10 px-4 py-5 form-container">
+    <div class="container-fluid col-xl-10 col-xxl-10 px-4 pt-5 form-container">
         <div class="row align-items-center g-lg-5 py-5" id="contact">
             <div class="col-lg-7 text-center text-lg-start" data-aos="fade-right" data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
@@ -336,14 +348,23 @@
 
     <!--footer section-->
     <div class="footer-wave">
-        <div class="custom-shape-divider-bottom-1626755599">
+        <!-- <div class="custom-shape-divider-bottom-1626755599">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
                     d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
                     class="shape-fill"></path>
             </svg>
+        </div> -->
+
+        <div class="custom-shape-divider-bottom-1630630417">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
         </div>
+
+
     </div>
     <footer class="footer mt-auto py-3 bg-light" id="sticky-footer">
         <div class="container">
