@@ -139,7 +139,6 @@ a.navbar-brand img {
 }
 .heading {
   font-family: "Nunito Sans", sans-serif;
-  /* color: #f5f1e8; */
   color: #464646;
   font-size: 5em;
 }
@@ -155,37 +154,23 @@ a.navbar-brand img {
   font-size: 1.1rem;
 }
 
-.hero-top .py-5,
-.hero-interior-page {
+.hero-top .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 10rem !important;
 }
-.hero-top,
-.hero-interior-page {
-  /* background-color: #f7f9fa; */
-  /*  background-color: #e8dcd8; */
-  /* background-color: #fbfbfb; */
-  /* background: linear-gradient(160deg, rgba(251,251,251,1) 32%, rgba(255,245,196,1) 100%); */
-
- /*  background: rgb(240,244,248);
-  background: linear-gradient(160deg, rgba(240,244,248,1) 32%, rgba(188,204,220,1) 100%); */
-
+.hero-top {
   background: rgb(250,249,247);
-background: linear-gradient(160deg, rgba(250,249,247,1) 32%, rgba(211,206,196,1) 100%);
-
+  background: linear-gradient(160deg, rgba(250,249,247,1) 32%, rgba(211,206,196,1) 100%);
   color: #333333;
 }
 .island {
   width: 700px;
-  height: 575px;
+  height: 275px;
 }
 .island img {
   filter: drop-shadow(5px 5px 5px rgb(172, 172, 172));
 }
-.hero-wave,
-.hero-wave-interior,
-.about-bottom-wave,
-.work-top-wave {
+.hero-slant {
   position: relative;
 }
 
@@ -198,14 +183,31 @@ background: linear-gradient(160deg, rgba(250,249,247,1) 32%, rgba(211,206,196,1)
 }
 /*placeholder for my headshot image*/
 .about-img {
-  width: 100%;
+  width: 50%;
   height: auto;
   background-image: url("../images/LisaErnst-portrait.jpg");
   border-radius: 50%;
-  /* border: solid 15px palevioletred; */
+ 
+}
+.portrait {
+  text-align: center;
+}
+.portrait-tech {
+  background-color: #fdf8f7;
 }
 .about-para {
   margin-top: 2em;
+}
+.work-card {
+  padding-bottom: 3rem;
+}
+.work-card h2 {
+  text-align: center;
+}
+.work-card ul li {
+text-align: center;
+list-style-type: none;
+
 }
 
 /* ************************************************************ */
@@ -395,12 +397,14 @@ border-radius: 21px 21px 0 0;
 }
 
 
+/* ************************************************************ */
+/*                  SLANTED SVG'S                               */
+/* ************************************************************ */
 
-/* ************************************************************ */
-/*                  WAVE BACKGROUNDS                            */
-/* ************************************************************ */
-/* top header section svg wave background  */
-.custom-shape-divider-bottom-1626718212 {
+
+/* slanted svg's sections */
+
+.custom-shape-divider-bottom-1630629094 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -410,71 +414,59 @@ border-radius: 21px 21px 0 0;
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1626718212 svg {
+.custom-shape-divider-bottom-1630629094 svg {
   position: relative;
   display: block;
-  width: calc(266% + 1.3px);
-  height: 130px;
+  width: calc(100% + 1.3px);
+  height: 150px;
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1626718212 .shape-fill {
-  fill: #ffffff;
+.custom-shape-divider-bottom-1630629094 .shape-fill {
+  fill: #FFFFFF;
 }
 
-/* end of header wave */
-/* bottom about wave */
 
-/* FOOTER WAVE TOP */
+/* FOOTER SLANT TOP */
 .footer-wave {
   position: relative;
   margin-top: 10rem;
 }
-.custom-shape-divider-bottom-1626755599 {
+
+/* footer color slant */
+
+.custom-shape-divider-bottom-1630630417 {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1626755599 svg {
+.custom-shape-divider-bottom-1630630417 svg {
   position: relative;
   display: block;
-  width: calc(179% + 1.3px);
-  height: 172px;
+  width: calc(165% + 1.3px);
+  height: 90px;
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1626755599 .shape-fill {
-  /*  fill: #f7f9fa; */
-
-  /* fill: #fbfbfb; */
-
+.custom-shape-divider-bottom-1630630417 .shape-fill {
+  fill: #faf9f7;
 }
+
 
 /* ************************************************************ */
 /*                  FOOTER SECTION                              */
 /* ************************************************************ */
 
 #sticky-footer {
-  /*  background-color: #f7f9fa !important; */
-  /*  background-color: #e8dcd8 !important; */
-
-  /* working */
   background-color: #fbfbfb !important;
-  /*   color: #f5f1e8; */
-
-  
   color: #464646;
-
-
-/*   background: rgb(250,249,247);
-  background: linear-gradient(180deg, rgba(250,249,247,1) 32%, rgba(240,239,238,1) 55%, rgba(211,206,196,1) 100%); */
-
-
   background: rgb(250,249,247);
-background: linear-gradient(180deg, rgba(250,249,247,1) 14%, rgba(240,239,238,1) 55%, rgba(211,206,196,1) 100%);
+  background: linear-gradient(180deg, rgba(250,249,247,1) 14%, rgba(240,239,238,1) 55%, rgba(211,206,196,1) 100%);
 
 }
 #sticky-footer span {
@@ -491,7 +483,6 @@ background: linear-gradient(180deg, rgba(250,249,247,1) 14%, rgba(240,239,238,1)
 .github-social svg {
   width: 130%;
   height: auto;
-  /* fill: black; */
   fill: #333333;
 }
 .copyright-info {
@@ -544,8 +535,58 @@ a:hover#contact-link  {
 /* ************************************************************ */
 /*                  MEDIA QUERIES                               */
 /* ************************************************************ */
+@media (min-width: 576px) { 
+  .island {
+ 
+    height: 475px;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .work-card {
+    text-align: center;
+    
+}
+.work-card h2 {
+  text-align: center;
+}
+.work-card ul li {
+  list-style-type: none;
+ 
+}
+ }
+ @media (min-width: 768px) { 
+  .island {
+   
+    height: 575px;
+  }
+  .work-card h2 {
+    text-align: center;
+  }
+  .work-card ul li {
+    text-align: center;
+  }
+  }
 
 @media (min-width: 992px) {
+  .island {
+  
+    height: 575px;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .work-card {
+    text-align: left;
+    
+}
+.work-card h2 {
+  text-align: left;
+}
+.work-card ul li {
+  list-style-type: none;
+  text-align: left;
+}
   /* contact form on index page left border */
   .form-side {
     border-left: solid 2px #838383;
@@ -578,52 +619,5 @@ a:hover#contact-link  {
 }
 
 }
-/* slanted hero section */
-
-.custom-shape-divider-bottom-1630629094 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1630629094 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1630629094 .shape-fill {
-  fill: #FFFFFF;
-}
 
 
-
-/* footer color slant */
-
-.custom-shape-divider-bottom-1630630417 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1630630417 svg {
-  position: relative;
-  display: block;
-  width: calc(165% + 1.3px);
-  height: 90px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1630630417 .shape-fill {
-  fill: #faf9f7;
-}
