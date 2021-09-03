@@ -67,10 +67,25 @@
                     or
                     part-time, Web Design / Front End Development work.</p>
 
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start general-button">
-                    <a href="portfolio.html">View My
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start gooey-button-wrapper">
+                    <a class="gooey-button" href="portfolio.html">View My
                         Work</a>
                 </div>
+                <!--Gooey button svg-->
+                <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                <svg style="visibility: hidden; position: absolute;" width="0" height="0"
+                    xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                result="goo" />
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+                <!--end of gooey button svg-->
+
             </div>
         </div>
     </div><!-- end of hero top containter -->
@@ -88,10 +103,6 @@
 
     </div>
     <!--end of hero wave-->
-
-
-
-
 
 
     <div class="container main">

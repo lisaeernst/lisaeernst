@@ -30,17 +30,6 @@ h2.title-h2 {
   font-weight: 700;
   font-size: 16px;
 }
-/* a links as buttons styles */
-.sub-btn {
-  color: #fff;
-  background-color: #e94f37;
-  border-color: #e94f37;
-}
-.sub-btn:hover {
-  background-color: #ff725c;
-  border-color: #ff725c;
-  color: white;
-}
 .about-section,
 .main,
 .alt-work-projects,
@@ -52,28 +41,105 @@ h2.title-h2 {
   width: 10%;
   position: absolute;
 }
-.general-button a {
-  text-decoration: none;
-  color: #ffffff;
+.logo-text {
+  font-size: 2.5rem;
+}
+/* BUTTON STYLES */
+/* a links as buttons styles */
+.sub-btn {
+  color: #fff;
   background-color: #e94f37;
-  padding: 16px 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.8em;
-  font-weight: bold;
-  border-radius: 5px;
+  border-color: #e94f37;
 }
-.general-button-cards {
-  padding: 16px 16px !important;
-}
-.general-button a:hover {
+.sub-btn:hover {
   background-color: #ff725c;
   border-color: #ff725c;
   color: white;
 }
-.logo-text {
-  font-size: 2.5rem;
+/* the buttons on the flip cards needed to match height and width of sites other buttons for consistency */
+.general-button-cards {
+  padding: 16px 16px !important;
+  transition: 0.6s;
 }
+/*over ride the Bootstrap hover color on button class on hover */
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #ff725c;
+  border-color: #ff725c;
+}
+.btn {
+  transition: 0.6s;
+}
+
+
+
+
+/* ************************************************************ */
+/*               GOOEY BUTTONS BY Ines Montani                  */
+/*          thanks to   https://codepen.io/ines/pen/oeZdYv      */
+/* ************************************************************ */
+
+:root {
+  --bg: #fff;
+  --color: #ff725c;
+  --hovr: #e45b46;
+/*   --font: Montserrat, Roboto, Helvetica, Arial, sans-serif; */
+}
+.gooey-button-wrapper {
+  padding: 1.0rem 0;
+  filter: url('#goo');
+}
+
+.gooey-button {
+  display: inline-block;
+  text-align: center;
+  background: var(--color);
+  color: var(--bg);
+  font-weight: bold;
+  padding: 1em 1em 1em;
+  line-height: 1;
+  border-radius: 0.1em;
+  position: relative;
+  min-width: 8.23em;
+  text-decoration: none;
+ /*  font-family: var(--font); */
+  font-size: 1rem;
+}
+.gooey-button:hover {
+  color: rgb(252, 240, 240);
+  background-color: var(--hovr);
+}
+.gooey-button:before,
+.gooey-button:after {
+  width: 4.4em;
+  height: 2.95em;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: var(--hovr);
+  border-radius: 50%;
+  transition: transform 0.6s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.gooey-button:before {
+  top: -45%;
+  left: 20%;
+}
+
+.gooey-button:after {
+  bottom: -65%;
+  right: 20%;
+}
+
+.gooey-button:hover:before,
+.gooey-button:hover:after {
+  transform: none;
+}
+
+/* end of gooey button */
+
 
 /* ************************************************************ */
 /*                NAVBAR ANIMATED UNDERLINES                    */
@@ -193,7 +259,7 @@ a.navbar-brand img {
   text-align: center;
 }
 .portrait-tech {
-  background-color: #fdf8f7;
+  background-color: #faf9f7;
 }
 .about-para {
   margin-top: 2em;
@@ -380,7 +446,7 @@ list-style-type: none;
 /* ************************************************************ */
 .tech-used {
   margin-bottom: 5rem;
-  background-color: #fdf8f7;
+  background-color: #faf9f7;
 }
 /* since the container is fluid 50% width limits the width for better reading/legibility */
 .tech-used p {
@@ -626,5 +692,6 @@ a:hover#contact-link  {
 }
 
 }
+
 
 
