@@ -46,7 +46,7 @@ h2.title-h2 {
 }
 /* BUTTON STYLES */
 /* a links as buttons styles */
-.sub-btn {
+/* .sub-btn {
   color: #fff;
   background-color: #e94f37;
   border-color: #e94f37;
@@ -55,12 +55,13 @@ h2.title-h2 {
   background-color: #ff725c;
   border-color: #ff725c;
   color: white;
-}
+} */
 /* the buttons on the flip cards needed to match height and width of sites other buttons for consistency */
 .general-button-cards {
   padding: 16px 16px !important;
   transition: 0.6s;
 }
+
 /*over ride the Bootstrap hover color on button class on hover */
 .btn-outline-secondary:hover {
   color: #fff;
@@ -81,7 +82,7 @@ h2.title-h2 {
 
 :root {
   --bg: #fff;
-  --color: #ff725c;
+  --color: #34c5b1;
   --hovr: #e45b46;
 /*   --font: Montserrat, Roboto, Helvetica, Arial, sans-serif; */
 }
@@ -169,25 +170,21 @@ h2.title-h2 {
 }
 /* **********************************************************  */
 /*                LINKS ANIMATED UNDERLINES                    */
-/*                thanks to   Geoff Graham                     */
-/*       https://codepen.io/geoffgraham/pen/GXoOdK             */
+/*                thanks to   MrPirrera                        */
+/*       https://codepen.io/pirrera/pen/emKqBp                 */
 /* *********************************************************** */
 
 a#underline {
-  background: linear-gradient(to top, #e94f37 0%, #e98d37 100%);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size 0.2s;
-  transition: all 0.5s;
-  padding: 5px; /*separates the line from the type a bit more*/
+  text-decoration:none;
+  border-bottom: 2px solid #34c5b1;
+  box-shadow: inset 0 -4px 0 #34c5b1;
+  color: inherit;
+  transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+  padding: 5px; /*I've add it separates the line from the type a bit more*/
 }
 
 a:hover#underline {
-  background-size: 4px 50px;
-  color: white;
+  background: #34c5b1;
 }
 
 /* ************************************************************ */
@@ -205,7 +202,8 @@ a.navbar-brand img {
 }
 .heading {
   font-family: "Nunito Sans", sans-serif;
-  color: #464646;
+ /*  color: #464646; */
+ color: #0f3e6b;
   font-size: 5em;
 }
 #hero-button {
@@ -225,8 +223,26 @@ a.navbar-brand img {
   padding-bottom: 10rem !important;
 }
 .hero-top {
-  background: rgb(250,249,247);
-  background: linear-gradient(160deg, rgba(250,249,247,1) 32%, rgba(211,206,196,1) 100%);
+  /* background: rgb(250,249,247);
+  background: linear-gradient(160deg, rgba(250,249,247,1) 32%, rgba(211,206,196,1) 100%); */
+
+  background-image: linear-gradient(to left, rgba(128, 204, 113, 0.7), rgb(174, 236, 251));
+  
+
+  /*
+linear-gradient(to left, #f58dba, #EECDA3)
+
+  linear-gradient(to left, #ff624fde, #f3d782)
+
+  greens
+  linear-gradient(to left, #80cc71a8, #aeecfb)
+
+  blues for portrait area
+  linear-gradient(to right, #abecff, #a5d492)
+
+  #0f3e6b
+  */
+  
   color: #333333;
 }
 .island {
@@ -234,7 +250,7 @@ a.navbar-brand img {
   height: 275px;
 }
 .island img {
-  filter: drop-shadow(5px 5px 5px rgb(172, 172, 172));
+  filter: drop-shadow(5px 5px 5px rgb(61, 61, 61));
 }
 .hero-slant {
   position: relative;
@@ -259,7 +275,8 @@ a.navbar-brand img {
   text-align: center;
 }
 .portrait-tech {
-  background-color: #faf9f7;
+ /*  background-color: #faf9f7; */
+ background-image: linear-gradient(to right, #abecff, #a5d492);
 }
 .about-para {
   margin-top: 2em;
@@ -420,10 +437,11 @@ list-style-type: none;
   margin-top: 10px;
   line-height: 1.6;
 }
-.post-back a {
+.post-back a,
+ .general-button a {
   text-decoration: none;
   color: #ffffff;
-  background-color: #e94f37;
+  background-color: #34c5b1;
   padding: 10px 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -431,10 +449,15 @@ list-style-type: none;
   font-weight: bold;
   border-radius: 5px;
 }
-.post-back a:hover {
+.post-back a:hover,
+.general-button a:hover {
   background-color: #ff725c;
   border-color: #ff725c;
   color: white;
+}
+.general-button a {
+  padding: 16px 16px !important;
+  transition: 0.6s;
 }
 .post-info {
   text-align: center;
@@ -446,7 +469,8 @@ list-style-type: none;
 /* ************************************************************ */
 .tech-used {
   margin-bottom: 5rem;
-  background-color: #faf9f7;
+  /* background-color: #faf9f7; */
+  background-color: #f8f9fa;
 }
 /* since the container is fluid 50% width limits the width for better reading/legibility */
 .tech-used p {
@@ -508,7 +532,7 @@ border-radius: 21px 21px 0 0;
 
 /* footer color slant */
 
-.custom-shape-divider-bottom-1630630417 {
+/* .custom-shape-divider-bottom-1630630417 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -529,6 +553,29 @@ border-radius: 21px 21px 0 0;
 .custom-shape-divider-bottom-1630630417 .shape-fill {
   fill: #faf9f7;
 }
+ */
+
+ .custom-shape-divider-top-1630810033 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1630810033 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1630810033 .shape-fill {
+  fill: #FFFFFF;
+}
+
 
 
 /* ************************************************************ */
@@ -536,14 +583,19 @@ border-radius: 21px 21px 0 0;
 /* ************************************************************ */
 
 #sticky-footer {
-  background-color: #fbfbfb !important;
+  /* background-color: #95bf86!important; */
+  background-image: linear-gradient(to left, rgba(128, 204, 113, 0.7), rgb(174, 236, 251));
   color: #464646;
-  background: rgb(250,249,247);
-  background: linear-gradient(180deg, rgba(250,249,247,1) 14%, rgba(240,239,238,1) 55%, rgba(211,206,196,1) 100%);
+/*   background: rgb(250,249,247);
+  background: linear-gradient(180deg, rgba(250,249,247,1) 14%, rgba(240,239,238,1) 55%, rgba(211,206,196,1) 100%); */
 
 }
 #sticky-footer span {
   font-size: larger;
+}
+.container-foot {
+  padding-top: 150px;
+  padding-left: 50px;
 }
 .form-container p {
   padding-left: 3px;
@@ -565,19 +617,16 @@ border-radius: 21px 21px 0 0;
   margin-bottom: -20px;
 }
 a#contact-link {
-  background: linear-gradient(to top, #e94f37 0%, #e98d37 100%);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size 0.2s;
-  transition: all 0.5s;
+  text-decoration:none;
+  border-bottom: 2px solid #34c5b1;
+  box-shadow: inset 0 -4px 0 #34c5b1;
+  color: inherit;
+  transition: background 0.1s cubic-bezier(.33,.66,.66,1);
   padding: 5px; /*separates the line from the type a bit more*/
   font-size: 2.5rem;
 }
 a:hover#contact-link  {
-  background-size: 4px 50px;
+  background: #34c5b1;
   color: white;
 }
 .contact-para {
@@ -587,15 +636,17 @@ a:hover#contact-link  {
   text-align: center;
 }
 
-
 /* ************************************************************ */
 /*                  PORTFOLIO PAGE                         */
 /* ************************************************************ */
-
+.tree-icon svg {
+  height: 200px;
+  width: 125px;
+}
 .container.storm-icon svg {
   height: 57px;
   width: 72px;
-  fill: #e94f37;
+
 }
 .portfolio-container,
 .portfolio-container-h2 {
