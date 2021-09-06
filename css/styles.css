@@ -47,8 +47,8 @@ h2.title-h2 {
 /*over ride the Bootstrap hover color on button class on hover */
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #ff725c;
-  border-color: #ff725c;
+ /*  background-color: #ff725c;
+  border-color: #ff725c; */
 }
 .btn {
   transition: 0.6s;
