@@ -466,22 +466,23 @@ border-radius: 21px 21px 0 0;
   height: 250px;
 }
 #sticky-footer span {
+  display: block;
   font-size: larger;
 }
 .container-foot {
-  /* padding-top: 150px;
-  padding-left: 50px; */
+ text-align: center;
 }
 .form-container p {
   padding-left: 3px;
 }
 .linkedin-social,
 .github-social {
+  display: inline;
   padding-right: 15px;
 }
 .linkedin-social svg,
 .github-social svg {
-  width: 130%;
+ /*  width: 130%; */
   height: auto;
   fill: #333333;
 }
