@@ -511,6 +511,8 @@ a:hover#contact-link  {
 
 #btn-back-to-top {
   position: fixed;
+ /*  width: 3rem;
+  height: 3rem; */
   bottom: 20px;
   right: 20px;
   display: none;
