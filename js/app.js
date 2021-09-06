@@ -3,7 +3,6 @@
 baguetteBox.run('.project-writeup');
 
 
-/* back to top button */
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
