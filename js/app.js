@@ -1,8 +1,8 @@
 /* LISA ERNST FRONT END WEB DEVELOPER */
 
-baguetteBox.run('.project-writeup');
+/* baguetteBox.run('.project-writeup'); */
 
-alert('hello');
+
 
 /* //Get the button */
 let mybutton = document.getElementById("btn-back-to-top");
