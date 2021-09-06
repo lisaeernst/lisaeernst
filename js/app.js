@@ -32,6 +32,4 @@ function backToTop() {
 }
 
 /* SMOOTH SCROLLING */
-var scroll = new SmoothScroll('a[href*="#"]', {
-    easing: 'Linear'
-});
+var scroll = new SmoothScroll('a[href*="#"]');
