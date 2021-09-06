@@ -3,6 +3,7 @@
 /* baguetteBox.run('.project-writeup'); */
 
 
+/* BACK TO TOP BUTTON */
 
 /* //Get the button */
 let mybutton = document.getElementById("btn-back-to-top");
