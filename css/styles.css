@@ -44,20 +44,6 @@ h2.title-h2 {
   transition: 0.6s;
 }
 
-/*over ride the Bootstrap hover color on button class on hover */
-/*
-.btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #ff725c;
-  border-color: #ff725c;
-}
-.btn {
-  transition: 0.6s;
-}
-*/
-
-
-
 /* ************************************************************ */
 /*               GOOEY BUTTONS BY Ines Montani                  */
 /*          thanks to   https://codepen.io/ines/pen/oeZdYv      */
