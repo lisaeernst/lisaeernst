@@ -186,14 +186,7 @@ a.navbar-brand img {
  color: #0f3e6b;
   font-size: 5em;
 }
-#hero-button {
-  background-color: #868686;
-  border-color: #868686;
-}
-#hero-button:hover {
-  background-color: #aca9a9;
-  border-color: #aca9a9;
-}
+
 .lead {
   font-size: 1.1rem;
 }
@@ -531,6 +524,7 @@ a:hover#contact-link  {
 #btn-back-to-top svg {
   width: 25px;
   height: 25px;
+  fill: #fff;
 }
 
 /* ************************************************************ */
