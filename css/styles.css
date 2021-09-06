@@ -487,6 +487,9 @@ border-radius: 21px 21px 0 0;
   height: auto;
   fill: #333333;
 }
+.linkedin-social svg:hover, .github-social svg:hover {
+  fill: white;
+}
 .copyright-info {
   text-align: center;
   margin-top: 35px;
