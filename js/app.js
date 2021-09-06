@@ -30,3 +30,8 @@ function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+    easing: 'easeInOutQuint'
+});
