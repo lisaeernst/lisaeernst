@@ -33,5 +33,5 @@ function backToTop() {
 
 
 var scroll = new SmoothScroll('a[href*="#"]', {
-    easing: 'easeOutQuint'
+    easing: 'Linear'
 });
