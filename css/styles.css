@@ -538,6 +538,10 @@ a:hover#contact-link  {
 /*                  MEDIA QUERIES                               */
 /* ************************************************************ */
 @media (min-width: 576px) { 
+  a.navbar-brand img {
+    width: 125px;
+    height: 500px;
+  }
   .island {
  
     height: 475px;
