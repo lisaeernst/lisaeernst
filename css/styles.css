@@ -520,7 +520,7 @@ a:hover#contact-link  {
 
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 16rem;
   right: 20px;
   display: none;
   background-color: #34c5b1 !important;
