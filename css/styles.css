@@ -482,7 +482,6 @@ border-radius: 21px 21px 0 0;
 }
 .linkedin-social svg,
 .github-social svg {
- /*  width: 130%; */
   height: auto;
   fill: #333333;
 }
