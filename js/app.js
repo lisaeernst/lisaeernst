@@ -31,7 +31,7 @@ function backToTop() {
     document.documentElement.scrollTop = 0;
 }
 
-
+/* SMOOTH SCROLLING */
 var scroll = new SmoothScroll('a[href*="#"]', {
     easing: 'Linear'
 });
