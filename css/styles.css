@@ -182,15 +182,12 @@ a.navbar-brand img {
 }
 .heading {
   font-family: "Nunito Sans", sans-serif;
- /*  color: #464646; */
- color: #0f3e6b;
+  color: #0f3e6b;
   font-size: 5em;
 }
-
 .lead {
   font-size: 1.1rem;
 }
-
 .hero-top .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 10rem !important;
