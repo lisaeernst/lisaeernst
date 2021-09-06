@@ -458,15 +458,19 @@ border-radius: 21px 21px 0 0;
 /* ************************************************************ */
 
 #sticky-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   background-image: linear-gradient(to left, rgba(128, 204, 113, 0.7), rgb(174, 236, 251));
   color: #464646;
+  height: 250px;
 }
 #sticky-footer span {
   font-size: larger;
 }
 .container-foot {
-  padding-top: 150px;
-  padding-left: 50px;
+  /* padding-top: 150px;
+  padding-left: 50px; */
 }
 .form-container p {
   padding-left: 3px;
