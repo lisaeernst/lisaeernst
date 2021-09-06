@@ -160,10 +160,11 @@ a:hover#underline {
 span.header-span {
   font-weight: 500;
 }
+
 a.navbar-brand img {
   position: relative;
-  width: 250px;
-  height: 100px;
+  width: 125px;
+  height: 50px;
   background-size: cover;
 }
 .heading {
@@ -538,11 +539,7 @@ a:hover#contact-link  {
 /*                  MEDIA QUERIES                               */
 /* ************************************************************ */
 @media (min-width: 576px) { 
-  a.navbar-brand img {
-    width: 125px;
-    height: 50px;
-    border: solid 2px red;
-  }
+  
   .island {
  
     height: 475px;
@@ -619,6 +616,10 @@ a:hover#contact-link  {
  
 }
 @media (min-width: 1200px) { 
+  a.navbar-brand img {
+    width: 250px;
+    height: 100px;
+  }
   /* contact link margin to align with the left side type */
   .contact-link-container {
   margin-top: 155px;
