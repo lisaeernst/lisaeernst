@@ -340,8 +340,7 @@ list-style-type: none;
   border-radius: 5px;
 }
 .post-back a:hover,
-.general-button a:hover,
-.btn-top-casestudy a:hover {
+.general-button a:hover {
   background-color: #ff725c !important;
   border-color: #ff725c !important;
   color: white;
@@ -361,6 +360,11 @@ list-style-type: none;
   font-size: 1.25rem;
   border-radius: .3rem;
 
+}
+.btn-top-casestudy a:hover {
+  background-color: #ff725c !important;
+  border-color: #ff725c !important;
+  color: white;
 }
 
 /* ************************************************************ */
