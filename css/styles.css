@@ -640,6 +640,9 @@ a:hover#contact-link  {
   .contact-link-container {
     text-align: left;
   }
+  .conclusion-para p {
+    max-width: 70%;
+  }
  
 }
 @media (min-width: 1200px) { 
