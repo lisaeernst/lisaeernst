@@ -396,6 +396,7 @@ border-radius: 21px 21px 0 0;
 }
 .conclusion-para p {
   max-width: 90%;
+  text-align: left;
 }
 
 
@@ -642,6 +643,7 @@ a:hover#contact-link  {
   }
   .conclusion-para p {
     max-width: 70%;
+    text-align: center;
   }
  
 }
