@@ -394,7 +394,9 @@ a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
   height: auto;
 border-radius: 21px 21px 0 0;
 }
-
+.conclusion-para p {
+  max-width: 90%;
+}
 
 
 /* ************************************************************ */
