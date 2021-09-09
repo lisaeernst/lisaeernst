@@ -461,7 +461,7 @@ border-radius: 21px 21px 0 0;
 .linkedin-social,
 .github-social,
 .instagram-social {
-  display: inline;
+  display: inline-block;
   padding-right: 15px;
 }
 .linkedin-social svg,
