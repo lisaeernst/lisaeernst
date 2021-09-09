@@ -237,7 +237,7 @@
 
             <!--third row of case study-->
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
-                <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col">
                     <div class="class my-3">
                         <p>In the end I exceeded expectations on this project which was great. I haven’t designed with
                             this pink hued colour palette before but it just seemed to fit this project as I wanted
@@ -263,7 +263,7 @@
 
                 </div>
                 <!--project image 3-->
-                <div class="col" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col">
                     <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div class="my-3 p-3">
                             <h2 class="display-5">Typography in focus</h2>
@@ -293,55 +293,49 @@
 
     <!--tech used container-->
     <div class="container tech-used">
-        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <div class="p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-6 fw-normal">Tech Used In This Project</h1>
+        <div class="p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-6 fw-normal">Tech Used In This Project</h1>
+
+        </div>
+        <div class="row row-cols-1 tech-used-cols">
+            <div class="col1">
+                <h5>JAVASCRIPT LIBRARIES AND PLUGINS</h5>
 
             </div>
-            <div class="row row-cols-1 tech-used-cols">
-                <div class="col1">
-                    <h5>JAVASCRIPT LIBRARIES AND PLUGINS</h5>
 
-                </div>
+            <div class="col2">
+                <h5>HTML / CSS</h5>
 
-                <div class="col2">
-                    <h5>HTML / CSS</h5>
+            </div>
 
-                </div>
+            <div class="col1">
+                <h5>BOOTSTRAP</h5>
 
-                <div class="col1">
-                    <h5>BOOTSTRAP</h5>
+            </div>
 
-                </div>
-
-                <div class="col2">
-                    <h5>PHOTOSHOP</h5>
-
-                </div>
-
+            <div class="col2">
+                <h5>PHOTOSHOP</h5>
 
             </div>
 
 
         </div>
 
-        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <div class="p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-6 fw-normal">Conclusion</h1>
-                <p class="fs-5 text-muted">What I walked away with in this project.</p>
+        <div class="p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-6 fw-normal">Conclusion</h1>
+            <p class="fs-5 text-muted">What I walked away with in this project.</p>
+        </div>
+        <div class="row row-cols-1 text-center">
+            <div class="col1">
+                <p>Bootstrap was a challenge to get to know quickly and there is still so much more to learn. I like
+                    to
+                    source out new learning tools so I took an extra Udemy course on Bootstrap while working on this
+                    site in order to understand more key concepts. I've learned over the years that this line of
+                    work entails continuous learning and I am happy to remain resilient in my professional
+                    development.
+                </p>
             </div>
-            <div class="row row-cols-1 text-center">
-                <div class="col1">
-                    <p>Bootstrap was a challenge to get to know quickly and there is still so much more to learn. I like
-                        to
-                        source out new learning tools so I took an extra Udemy course on Bootstrap while working on this
-                        site in order to understand more key concepts. I've learned over the years that this line of
-                        work entails continuous learning and I am happy to remain resilient in my professional
-                        development.
-                    </p>
-                </div>
 
-            </div>
         </div>
 
     </div>
@@ -350,13 +344,11 @@
 
     <div class="container-fluid col-xl-10 col-xxl-10 px-4 py-5 form-container">
         <div class="row align-items-center g-lg-5 py-5" id="contact">
-            <div class="col-lg-7 text-center text-lg-start" data-aos="fade-right" data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+            <div class="col-lg-7 text-center text-lg-start">
                 <h1 class="display-4 fw-bold lh-1 mb-3">Reach Out!</h1>
                 <p class="col-lg-10 fs-4">I look forward to hearing from you.</p>
             </div>
-            <div class="col-md-10 mx-auto col-lg-5 form-side" data-aos="fade-left" data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+            <div class="col-md-10 mx-auto col-lg-5 form-side">
                 <div class="contact-link-container">
                     <a href="https://pixels72.com/coming-soon-page/" class="contact-a" id="contact-link">Contact Me</a>
                 </div>
@@ -445,12 +437,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
-    <!-- AOS (animate on scroll) library -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: true
-        });
         window.addEventListener('load', function () {
             baguetteBox.run('.project-writeup');
         });
