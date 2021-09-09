@@ -94,12 +94,12 @@ h2.title-h2 {
 }
 
 .gooey-button:before {
-  top: -45%;
+  top: -25%;
   left: 20%;
 }
 
 .gooey-button:after {
-  bottom: -65%;
+  bottom: -25%;
   right: 20%;
 }
 
