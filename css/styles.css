@@ -353,7 +353,6 @@ list-style-type: none;
   text-align: center;
 }
 .btn-top-casestudy {
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   color: #fff;
   background-color: #34c5b1;
   border-color: #34c5b1;
@@ -366,6 +365,7 @@ a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
   background-color: #ff725c !important;
   border-color: #ff725c !important;
   color: #fff;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 /* ************************************************************ */
