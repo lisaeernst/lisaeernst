@@ -354,8 +354,9 @@ list-style-type: none;
 }
 .btn-top-casestudy {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  color: #fff;
+  color: #6c757d;
   background-color: #34c5b1;
+  border-color: #34c5b1;
   padding: .5rem 1rem;
   font-size: 1.25rem;
   border-radius: .3rem;
