@@ -216,7 +216,7 @@ a.navbar-brand img {
 }
 .about-para {
   margin-top: 2em;
-  max-width: 70%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.2em;
@@ -570,6 +570,9 @@ a:hover#contact-link  {
   }
   .work-card ul li {
     text-align: center;
+  }
+  .about-para {
+    max-width: 90%;
   }
 }
 
