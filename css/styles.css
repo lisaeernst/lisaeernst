@@ -340,7 +340,8 @@ list-style-type: none;
   border-radius: 5px;
 }
 .post-back a:hover,
-.general-button a:hover {
+.general-button a:hover,
+.btn-top-casestudy a:hover {
   background-color: #ff725c;
   border-color: #ff725c;
   color: white;
@@ -351,6 +352,36 @@ list-style-type: none;
 }
 .post-info {
   text-align: center;
+}
+.btn-top-casestudy {
+ 
+
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+  color: #6c757d;
+  border-color: #6c757d;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+
 }
 
 /* ************************************************************ */
