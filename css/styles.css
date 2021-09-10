@@ -465,6 +465,27 @@ border-radius: 21px 21px 0 0;
 
 
 /* ************************************************************ */
+/*                  PORTFOLIO PAGE                              */
+/* ************************************************************ */
+.tree-icon svg {
+  height: 200px;
+  width: 125px;
+}
+.container.storm-icon svg {
+  height: 57px;
+  width: 72px;
+
+}
+.portfolio-container,
+.portfolio-container-h2 {
+  margin-bottom: 2rem;
+}
+.second-row-portcards {
+  margin-bottom: 15rem;
+}
+
+
+/* ************************************************************ */
 /*                  FOOTER SECTION                              */
 /* ************************************************************ */
 
@@ -551,25 +572,6 @@ a:hover#contact-link  {
   fill: #fff;
 }
 
-/* ************************************************************ */
-/*                  PORTFOLIO PAGE                              */
-/* ************************************************************ */
-.tree-icon svg {
-  height: 200px;
-  width: 125px;
-}
-.container.storm-icon svg {
-  height: 57px;
-  width: 72px;
-
-}
-.portfolio-container,
-.portfolio-container-h2 {
-  margin-bottom: 2rem;
-}
-.second-row-portcards {
-  margin-bottom: 15rem;
-}
 
 /* ************************************************************ */
 /*                  MEDIA QUERIES                               */
