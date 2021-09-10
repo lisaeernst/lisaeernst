@@ -675,6 +675,9 @@ a:hover#contact-link  {
 .reach-out-p {
   font-size: 1.2rem;
 }
+.reach-out-h1 {
+  margin-top: 0;
+}
   .contact-section-divider {
     display: inline-block;
     width: 0;
