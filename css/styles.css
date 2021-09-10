@@ -175,6 +175,7 @@ a.navbar-brand img {
 }
 .lead {
   font-size: 1.1rem;
+  text-align: justify;
 }
 .hero-top .py-5 {
   padding-top: 3rem !important;
