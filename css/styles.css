@@ -400,7 +400,7 @@ border-radius: 21px 21px 0 0;
 }
 .conclusion-para p {
   max-width: 90%;
- 
+ text-align: center;
 }
 .case-study-para p {
   width: 85%;
@@ -661,7 +661,7 @@ a:hover#contact-link  {
  
   .conclusion-para p {
     max-width: 70%;
-    text-align: center;
+    text-align: left;
   }
  
 }
