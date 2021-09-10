@@ -647,6 +647,7 @@ a:hover#contact-link  {
   .contact-link-container {
     text-align: left;
   }
+  .case-study-para p,
   .conclusion-para p {
     max-width: 70%;
     text-align: left;
