@@ -375,9 +375,7 @@ a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
 /* ************************************************************ */
 /*                  INDIVIDUAL CASE STUDY PAGES                 */
 /* ************************************************************ */
-.tech-used {
-  margin-bottom: 5rem;
-}
+
 /* since the container is fluid percentage width limits the width for better reading/legibility */
 .tech-used p {
   max-width: 70%;
