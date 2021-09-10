@@ -675,6 +675,9 @@ a:hover#contact-link  {
   .contact-link-container {
   margin-top: 155px;
   }
+  .conclusion-para p {
+   text-align: center;
+  }
 }
 
 
