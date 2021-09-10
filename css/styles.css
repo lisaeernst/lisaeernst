@@ -529,12 +529,7 @@ a:hover#contact-link  {
   text-align: center;
 }
 .contact-section-divider {
-  display: inline-block;
-  width: 0;
-  height: 240px;
-  border-left: solid 2px #838383;
-  padding: 0;
-  margin: 0;
+  display: none;
 }
 
 /* BACK TO TOP BUTTON */
@@ -605,7 +600,16 @@ a:hover#contact-link  {
     max-width: 100%;
     text-align: left;
   }
+  .contact-section-divider {
+    display: inline-block;
+    width: 0;
+    height: 240px;
+    border-left: solid 2px #838383;
+    padding: 0;
+    margin: 0;
+  }
 }
+
  @media (min-width: 768px) { 
   .island {
    
