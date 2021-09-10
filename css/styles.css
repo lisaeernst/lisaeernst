@@ -173,7 +173,7 @@ a.navbar-brand img {
   color: #0f3e6b;
   font-size: 5em;
 }
-.lead {
+.leader {
   font-size: 1.1rem;
   width: 80%;
   margin-left: auto;
@@ -592,7 +592,7 @@ a:hover#contact-link  {
   .hr {
     width: 25%;
   }
-  .lead {
+  .leader {
     text-align: center;
   }
 }
