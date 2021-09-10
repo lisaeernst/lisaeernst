@@ -702,6 +702,9 @@ a:hover#contact-link  {
     width: 70%;
    text-align: center;
   }
+  .contact-section-divider {
+  margin-left: 80px;
+  }
 }
 
 
