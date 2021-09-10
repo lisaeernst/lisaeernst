@@ -531,7 +531,8 @@ a:hover#contact-link  {
 .contact-section-divider {
   display: none;
 }
-.reach-out {35px;
+.reach-out {
+  padding-bottom: 35px;
 }
 
 /* BACK TO TOP BUTTON */
