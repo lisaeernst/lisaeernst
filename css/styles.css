@@ -669,10 +669,11 @@ a:hover#contact-link  {
   }
   .reach-out {
     margin-top: 0;
+    padding-right: 0;
+    padding-left: 80px;
 }
 .reach-out-p {
-
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
   .contact-section-divider {
     display: inline-block;
