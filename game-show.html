@@ -242,21 +242,23 @@
                             the
                             letters in the phrase and if so, it gets stored in the matched variable with a class of
                             show. When the loop is completed then the matched variable is returned.</p>
+
                         <p>Next, I added an event listener for the qwerty element that listens for the click event
                             on the on screen keyboard with a tag name of button this checks to make sure the user is
                             not using the physical keyboard. The class of chosen is then added to the button that
-                            was
-                            clicked. That key is then disabled and is not available to be chosen again and is
-                            highlighted on the onscreen keyboard using CSS. The checkLetter function is called and
-                            the results are stored in the match variable. If the checkLetter function does not have
-                            a
-                            valid value then match is equal to null and a heart is removed, giving the user one less
-                            chance to solve the phrase. The missed counter is incremented by one.</p>
+                            was clicked. That key is then disabled and is not available to be chosen again and is
+                            highlighted on the onscreen keyboard using CSS.</p>
+
+                        <p>The checkLetter function is called and the results are stored in the match variable. If the
+                            checkLetter function does not have a valid value then match is equal to null and a heart is
+                            removed, giving the user one less chance to solve the phrase. The missed counter is
+                            incremented by one.</p>
+
                         <p>A new function called checkWin was created and inside this function the letters and show
                             variables are compared to see if their lengths match. If they are then the win overlay
                             is displayed. If the two variables lengths do not match then display the lose overlay
-                            with
-                            a message saying, Sorry, please try again.</p>
+                            with a message saying, Sorry, please try again.</p>
+
                         <p>I added a function named reset to create a reset button which reloads the page on both
                             the win or lose overlay to make for better usability for the player.</p>
                     </div>
