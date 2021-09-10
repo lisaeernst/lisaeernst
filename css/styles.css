@@ -528,6 +528,14 @@ a:hover#contact-link  {
 .contact-link-container {
   text-align: center;
 }
+.contact-section-divider {
+  display: inline-block;
+  width: 0;
+  height: 240px;
+  border-left: solid 2px #838383;
+  padding: 0;
+  margin: 0;
+}
 
 /* BACK TO TOP BUTTON */
 
@@ -671,7 +679,7 @@ a:hover#contact-link  {
   }
   /* contact link margin to align with the left side type */
   .contact-link-container {
-  margin-top: 155px;
+/*   margin-top: 155px; */
   }
   .conclusion-para p {
     width: 70%;
