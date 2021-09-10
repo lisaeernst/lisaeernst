@@ -592,6 +592,9 @@ a:hover#contact-link  {
   .hr {
     width: 25%;
   }
+  .lead {
+    text-align: center;
+  }
 }
  @media (min-width: 768px) { 
   .island {
