@@ -670,6 +670,10 @@ a:hover#contact-link  {
   .reach-out {
     margin-top: 0;
 }
+.reach-out-p {
+
+    font-size: 1.2rem;
+}
   .contact-section-divider {
     display: inline-block;
     width: 0;
