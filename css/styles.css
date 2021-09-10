@@ -648,6 +648,8 @@ a:hover#contact-link  {
   /* contact form on index page left border */
   .form-side {
    /*  border-left: solid 2px #838383; */
+   padding-left: 0px;
+    margin-left: 40px !important;
   }
   /* on the work page the second row of cards for projects on larger screen will display two per row but on smaller
   screens will go full width like the other cards above them */
