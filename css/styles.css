@@ -613,7 +613,10 @@ a:hover#contact-link  {
   .project-images {
     width: 100%;
    }
- 
+   .conclusion-para p {
+    max-width: 70%;
+    text-align: left;
+  }
 }
 
 @media (min-width: 992px) {
@@ -659,10 +662,7 @@ a:hover#contact-link  {
     text-align: left;
   }
  
-  .conclusion-para p {
-    max-width: 70%;
-    text-align: left;
-  }
+ 
  
 }
 @media (min-width: 1200px) { 
