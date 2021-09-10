@@ -398,7 +398,9 @@ border-radius: 21px 21px 0 0;
   max-width: 90%;
   text-align: left;
 }
-
+.case-study-bg-imgs {
+    background-color: #f0f0f1!important;
+}
 
 /* ************************************************************ */
 /*                  SLANTED SVG'S                               */
