@@ -3,6 +3,7 @@
 /* ************************************************************ */
 :root {
   --white: #ffffff;
+  --black: #000000;
   --main-color: #474747;
   --heroh1: #0f3e6b;
   --herotextcolor:#333333;
@@ -12,6 +13,9 @@
  --linkunderlines: #34c5b1;
 
   --buttons-color: #ff725c;
+  --btnborders: #6c757d;
+
+  --casestudybackground: #f0f0f1;
 
 /*Gooey Button*/
   --bg: #fff;
@@ -373,17 +377,17 @@ list-style-type: none;
 }
 .btn-top-casestudy {
   color: #262626;
-  background-color: #fff;
-  border-color: #6c757d;
+  background-color: var(--white);
+  border-color: var(--btnborders);
   padding: .5rem 1rem;
   font-size: 1.25rem;
   border-radius: .3rem;
   transition: 0.6s;
 }
 a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
-  background-color: #ff725c !important;
-  border-color: #ff725c !important;
-  color: #000000;
+  background-color: var( --buttons-color) !important;
+  border-color: var( --buttons-color) !important;
+  color: var( --black);
 }
 
 /* ************************************************************ */
@@ -420,7 +424,7 @@ border-radius: 21px 21px 0 0;
   margin-right: auto;
 }
 .case-study-bg-imgs {
-    background-color: #f0f0f1!important;
+    background-color: var(--casestudybackground) !important;
 }
 
 /* ************************************************************ */
