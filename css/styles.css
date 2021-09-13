@@ -3,9 +3,12 @@
 /* ************************************************************ */
 : root {
   --main-color: #474747;
+  --heroh1: #0f3e6b;
   --border: #444444;  
   
-  
+  --navlinks: #e94f37;
+ --linkunderlines: #34c5b1;
+
   --buttons-color: #ff725c;
 
 /*Gooey Button*/
@@ -124,7 +127,7 @@ h2.title-h2 {
 /*          thanks to   https://codingyaar.com/                 */
 /* ************************************************************ */
 .navbar .navbar-nav .nav-link:hover {
-  color: #e94f37;
+  color: var(--navlinks);
 }
 .navbar .navbar-nav .nav-link {
   position: relative;
@@ -135,7 +138,7 @@ h2.title-h2 {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #e94f37;
+  background-color: var(--navlinks);
   color: transparent;
   width: 0%;
   content: "";
@@ -153,15 +156,15 @@ h2.title-h2 {
 
 a#underline {
   text-decoration:none;
-  border-bottom: 1px solid #34c5b1;
-  box-shadow: inset 0 -4px 0 #34c5b1;
+  border-bottom: 1px solid var(--linkunderlines);
+  box-shadow: inset 0 -4px 0 var(--linkunderlines);
   color: inherit;
   transition: background 0.1s cubic-bezier(.33,.66,.66,1);
   padding: 5px; /*I've add it separates the line from the type a bit more*/
 }
 
 a:hover#underline {
-  background: #34c5b1;
+  background: var(--linkunderlines);
 }
 
 /* ************************************************************ */
@@ -179,7 +182,7 @@ a.navbar-brand img {
 }
 .heading {
   font-family: "Nunito Sans", sans-serif;
-  color: #0f3e6b;
+  color: var(--heroh1);
   font-size: 5em;
 }
 .leader {
