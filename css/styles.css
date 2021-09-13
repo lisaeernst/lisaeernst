@@ -349,8 +349,8 @@ list-style-type: none;
 .post-back a,
  .general-button a {
   text-decoration: none;
-  color: #ffffff;
-  background-color: #34c5b1;
+  color: var(--white);
+  background-color: var( --linkunderlines);
   padding: 10px 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -360,8 +360,8 @@ list-style-type: none;
 }
 .post-back a:hover,
 .general-button a:hover {
-  background-color: #ff725c !important;
-  border-color: #ff725c !important;
+  background-color: var( --buttons-color) !important;
+  border-color: var( --buttons-color) !important;
   color: white;
 }
 .general-button a {
