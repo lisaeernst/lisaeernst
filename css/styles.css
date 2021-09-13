@@ -3,7 +3,9 @@
 /* ************************************************************ */
 : root {
   --main-color: #474747;
-
+  --border: #444444;  
+  
+  
   --buttons-color: #ff725c;
 
 }
@@ -36,7 +38,7 @@ h2.title-h2 {
   margin-top: 50px;
 }
 .hr {
-  border-top: 6px solid #444444;
+  border-top: 6px solid var(--border);
   width: 50%;
   position: absolute;
 }
