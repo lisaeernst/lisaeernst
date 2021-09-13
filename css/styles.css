@@ -699,15 +699,10 @@ a:hover#contact-link  {
     width: 250px;
     height: 100px;
   }
-  /* contact link margin to align with the left side type */
-  .contact-link-container {
-/*   margin-top: 155px; */
-  }
   .conclusion-para p {
     width: 70%;
    text-align: center;
-  }
-  
+  } 
 }
 
 @media (min-width: 1400px) { 
