@@ -8,6 +8,11 @@
   
   --buttons-color: #ff725c;
 
+/*Gooey Button*/
+  --bg: #fff;
+  --color: #34c5b1;
+  --hovr: #e45b46;
+
 }
 
 
@@ -59,12 +64,7 @@ h2.title-h2 {
 /*          thanks to   https://codepen.io/ines/pen/oeZdYv      */
 /* ************************************************************ */
 
-:root {
-  --bg: #fff;
-  --color: #34c5b1;
-  --hovr: #e45b46;
-/*   --font: Montserrat, Roboto, Helvetica, Arial, sans-serif; */
-}
+
 .gooey-button-wrapper {
   padding: 1.0rem 0;
   filter: url('#goo');
