@@ -4,6 +4,7 @@
 :root {
   --main-color: #474747;
   --heroh1: #0f3e6b;
+  --herotextcolor:#333333;
   --border: #444444;  
   
   --navlinks: #e94f37;
@@ -198,7 +199,7 @@ a.navbar-brand img {
 }
 .hero-top {
   background-image: linear-gradient(to left, rgba(128, 204, 113, 0.7), rgb(174, 236, 251)); 
-  color: #333333;
+  color: var(--herotextcolor);
 }
 .island {
   width: 700px;
