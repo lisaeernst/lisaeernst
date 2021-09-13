@@ -36,7 +36,7 @@ h2.title-h2 {
   margin-top: 50px;
 }
 .hr {
-  border-top: 6px solid rgb(68, 68, 68);
+  border-top: 6px solid #444444;
   width: 50%;
   position: absolute;
 }
