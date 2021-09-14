@@ -552,16 +552,16 @@ border-radius: 21px 21px 0 0;
 }
 a#contact-link {
   text-decoration:none;
-  border-bottom: 2px solid #34c5b1;
-  box-shadow: inset 0 -4px 0 #34c5b1;
+  border-bottom: 2px solid var(--linkunderlines);
+  box-shadow: inset 0 -4px 0 var(--linkunderlines);
   color: inherit;
   transition: background 0.1s cubic-bezier(.33,.66,.66,1);
   padding: 5px; /*separates the line from the type a bit more*/
   font-size: 2.5rem;
 }
 a:hover#contact-link  {
-  background: #34c5b1;
-  color: white;
+  background: var(--linkunderlines);
+  color: var(--white);
 }
 .contact-para {
   margin-top: 50px;
@@ -583,13 +583,13 @@ a:hover#contact-link  {
   bottom: 9rem;
   right: 20px;
   display: none;
-  background-color: #333 !important;
-  border: #333 !important;
+  background-color: var(--altmaincolordark) !important;
+  border: var(--altmaincolordark) !important;
 }
 #btn-back-to-top svg {
   width: 25px;
   height: 25px;
-  fill: #fff;
+  fill: var(--white);
 }
 
 
