@@ -5,6 +5,7 @@
   --white: #ffffff;
   --black: #000000;
   --main-color: #474747;
+  --altmaincolordark: #2f2f2f;
   --heroh1: #0f3e6b;
   --herotextcolor:#333333;
   --border: #444444;  
@@ -16,6 +17,7 @@
   --btnborders: #6c757d;
 
   --casestudybackground: #f0f0f1;
+  --footersocialhover: #737575;
 
 /*Gooey Button*/
   --bg: #fff;
@@ -512,7 +514,7 @@ border-radius: 21px 21px 0 0;
   justify-content: center;
   align-items: flex-end;
   background-image: linear-gradient(to left, rgba(128, 204, 113, 0.7), rgb(174, 236, 251));
-  color: #464646;
+  color: var(--altmaincolordark);
   height: 250px;
 }
 #sticky-footer span {
@@ -537,10 +539,10 @@ border-radius: 21px 21px 0 0;
   width: 2rem;
   padding-top: 1rem;
   height: auto;
-  fill: #333333;
+  fill: var(--altmaincolordark);
 }
 .linkedin-social svg:hover, .github-social svg:hover, .instagram-social svg:hover {
-  fill: #737575;
+  fill: var(--footersocialhover);
 }
 .copyright-info {
   text-align: center;
