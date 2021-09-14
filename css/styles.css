@@ -12,6 +12,7 @@
   
   --navlinks: #e94f37;
  --linkunderlines: #34c5b1;
+ --sectiondivider: #838383;
 
   --buttons-color: #ff725c;
   --btnborders: #6c757d;
@@ -707,7 +708,7 @@ a:hover#contact-link  {
     display: inline-block;
     width: 0;
     height: 240px;
-    border-left: solid 2px #838383;
+    border-left: solid 2px var(--sectiondivider);
     padding: 0;
     margin: 0;
   }
