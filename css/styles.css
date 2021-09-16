@@ -456,7 +456,7 @@ border-radius: 21px 21px 0 0;
 }
 
 .custom-shape-divider-bottom-1630629094 .shape-fill {
-  fill: var(-white);
+  fill: var(--white);
 }
 /* FOOTER SLANT */
 .footer-wave {
