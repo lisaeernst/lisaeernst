@@ -6,6 +6,7 @@
   --black: #000000;
   --main-color: #474747;
   --altmaincolordark: #2f2f2f;
+  --darkestgrey: #262626;
   --heroh1: #0f3e6b;
   --herotextcolor:#333333;
   --border: #444444;  
@@ -379,7 +380,7 @@ list-style-type: none;
   text-align: center;
 }
 .btn-top-casestudy {
-  color: #262626;
+  color: var(--darkestgrey);
   background-color: var(--white);
   border-color: var(--btnborders);
   padding: .5rem 1rem;
