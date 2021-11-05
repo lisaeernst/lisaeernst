@@ -87,62 +87,28 @@ h2.title-h2 {
 }
 
 /* ************************************************************ */
-/*               GOOEY BUTTONS BY Ines Montani                  */
-/*          thanks to   https://codepen.io/ines/pen/oeZdYv      */
+/*               HEADER BUTTON                                  */
 /* ************************************************************ */
 
-.gooey-button-wrapper {
-  padding: 1rem 0;
-  filter: url("#goo");
-}
-
-.gooey-button {
+.header-button {
   display: inline-block;
   text-align: center;
   background: var(--color);
-  color: var(--text);
-  font-weight: bold;
-  padding: 1em 1em 1em;
-  line-height: 1;
-  border-radius: 0.1em;
+  color: var(--black);
+  padding: 12px 12px;
   position: relative;
-  min-width: 8.23em;
   text-decoration: none;
-  /*  font-family: var(--font); */
-  font-size: 1rem;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transition: background-color 0.4s ease-out;
 }
-.gooey-button:hover {
-  color: rgb(252, 240, 240);
+
+.header-button:hover {
   background-color: var(--hovr);
   color: var(--black);
-}
-.gooey-button:before,
-.gooey-button:after {
-  width: 4.4em;
-  height: 2.95em;
-  position: absolute;
-  content: "";
-  display: inline-block;
-  background: var(--hovr);
-  border-radius: 50%;
-  transition: transform 0.6s ease;
-  transform: scale(0);
-  z-index: -1;
-}
-
-.gooey-button:before {
-  top: -25%;
-  left: 20%;
-}
-
-.gooey-button:after {
-  bottom: -25%;
-  right: 20%;
-}
-
-.gooey-button:hover:before,
-.gooey-button:hover:after {
-  transform: none;
 }
 
 /* ************************************************************ */
