@@ -674,6 +674,7 @@ a:hover#contact-link {
   display: none;
   background-color: var(--altmaincolordark) !important;
   border: var(--altmaincolordark) !important;
+  z-index: 99;
 }
 #btn-back-to-top svg {
   width: 25px;
