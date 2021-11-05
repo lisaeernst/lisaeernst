@@ -227,6 +227,8 @@ a.navbar-brand img {
     rgb(174, 236, 251)
   );
   color: var(--herotextcolor);
+  padding-left: 65px !important;
+  padding-right: 65px !important;
 }
 .lightbulb {
   width: 700px;
