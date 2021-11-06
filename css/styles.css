@@ -417,12 +417,12 @@ img.seo-icon {
   font-size: 0.8rem;
   color: #808080;
 }
-.post-info h2 {
+.post-except h3 {
   font-weight: bold;
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   padding-top: 5px;
 }
-.post-except h3,
+
 .post-info h3 {
   font-size: 1.5em;
 }
