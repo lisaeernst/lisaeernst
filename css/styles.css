@@ -750,7 +750,7 @@ a:hover#contact-link {
   .col-md-1.num5 {
     width: 75px;
   }
-  .col-md-1.num1 h3 {
+  .col-md-1.num1 h2 {
     margin-top: -54px;
   }
   .col-md-1.num2 {
@@ -760,10 +760,10 @@ a:hover#contact-link {
   .col-md-4.num2-para {
     margin: 137px 0 0 -30px;
   }
-  .col-md-1.num2 h3 {
+  .col-md-1.num2 h2 {
     margin-top: 10px;
   }
-  .col-md-1.num3 h3 {
+  .col-md-1.num3 h2 {
     margin-top: -50px;
   }
   .col-md-4.col-num-4 {
@@ -865,14 +865,14 @@ a:hover#contact-link {
   .row.num5-container {
     margin-top: -82px;
   }
-  .num1 h3,
-  .num2 h3,
-  .num3 h3,
-  .num5 h3 {
+  .num1 h2,
+  .num2 h2,
+  .num3 h2,
+  .num5 h2 {
     font-size: 7em;
     margin-top: -20px;
   }
-  .num4 h3 {
+  .num4 h2 {
     font-size: 7em;
   }
   .num-5-para {
