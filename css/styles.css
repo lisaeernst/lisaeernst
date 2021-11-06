@@ -256,11 +256,11 @@ img.greendots-vert-abouthead {
   margin-top: 50px;
 }
 
-.col-md-1.num1 h3,
-.col-md-1.num2 h3,
-.col-md-1.num3 h3,
-.col-md-1.num4 h3,
-.col-md-1.num5 h3 {
+.col-md-1.num1 h2,
+.col-md-1.num2 h2,
+.col-md-1.num3 h2,
+.col-md-1.num4 h2,
+.col-md-1.num5 h2 {
   font-size: 2.5em;
   margin-top: -20px;
 }
