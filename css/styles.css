@@ -578,6 +578,7 @@ a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
 .bulb-icon img {
   height: 200px;
   width: 125px;
+  filter: drop-shadow(1px 4px 3px rgb(44, 44, 44, 0.4));
 }
 .container.storm-icon svg {
   height: 57px;
