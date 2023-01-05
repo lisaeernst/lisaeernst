@@ -646,7 +646,7 @@ a:hover.btn.btn-top-casestudy.btn-outline-secondary.btn-lg.px-4.gap-3 {
 }
 a#contact-link {
   text-decoration: none;
-  border-bottom: 2px solid var(--linkunderlines);
+  border-bottom: 1px solid var(--linkunderlines);
   box-shadow: inset 0 -4px 0 var(--linkunderlines);
   color: inherit;
   transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
