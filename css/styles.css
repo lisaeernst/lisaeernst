@@ -651,7 +651,7 @@ a#contact-link {
   color: inherit;
   transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
   padding: 5px; /*separates the line from the type a bit more*/
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 a:hover#contact-link {
   background: var(--linkunderlines);
